@@ -1,0 +1,11 @@
+@if(token){
+    <app-header-logged></app-header-logged>
+}@else{
+    <app-header></app-header>
+}
+<!-- @if(token){
+    <app-landing-page></app-landing-page>
+}@else{
+} -->
+<router-outlet></router-outlet>
+<app-footer></app-footer>

@@ -1,0 +1,44 @@
+<div id="categories" class="flex flex-col w-full h-auto min-h-[640px] justify-center bg-[#1C2027] p-5">
+    <div class="flex justify-between items-center mb-4">
+        <div class="flex gap-3">
+            <img src="/images/categories.svg" alt="" width="32px">
+            <h3 class="text-white font-[ClashGrotesk-Medium] m-0">Categories</h3>
+        </div>
+    </div>
+    <div>
+        <div class="flex flex-col md:flex-row justify-around gap-5 md:gap-0">
+            <div class="flex flex-col md:flex-row gap-5">
+                <div class="flex flex-col justify-between gap-3">
+                    <!-- <div *ngFor="let category of categories | slice:0:4" class="bg-[#1C2027] w-full md:w-[300px] h-[70px] flex justify-center items-center border-[2px] border-[#3A66E8] p-5">
+                        <a class="font-[ClashGrotesk-Medium] text-white" href="">{{category.name}}</a>
+                    </div> -->
+                    <div *ngFor="let category of categories | slice:0:4" [routerLink]="['/products']" [queryParams]="{ category: category._id }" class="bg-[#1C2027] w-full md:w-[300px] h-[70px] cursor-pointer flex justify-center items-center border-[2px] border-[#3A66E8] p-5 transition hover:bg-[#2542A3]">
+                        <a 
+                          class="font-[ClashGrotesk-Medium] text-white cursor-pointer" 
+                          >{{ category.name }}
+                        </a>
+                      </div>
+                      
+                </div>
+                <div class="flex flex-col justify-between gap-3">
+                    <!-- <div *ngFor="let category of categories | slice:4:7" class="bg-[#1C2027] w-full md:w-[300px] h-[70px] flex justify-center items-center border-[2px] border-[#3A66E8] p-5">
+                        <a class="font-[ClashGrotesk-Medium] text-white" href="">{{category.name}}</a>
+                    </div> -->
+                    <div *ngFor="let category of categories | slice:4:7" [routerLink]="['/products']" [queryParams]="{ category: category._id }" class="bg-[#1C2027] w-full md:w-[300px] h-[70px] cursor-pointer flex justify-center items-center border-[2px] border-[#3A66E8] p-5 transition hover:bg-[#2542A3]">
+                        <a  class="font-[ClashGrotesk-Medium] text-white" 
+                          >
+                          {{ category.name }}
+                        </a>
+                      </div>
+                      
+                    <div class="bg-[#2E4074] w-full md:w-[300px] h-[70px] cursor-pointer flex justify-center items-center p-5 transition hover:bg-[#2542A3]">
+                        <a class="font-[ClashGrotesk-Medium] text-white" [routerLink]="['/products']">Browse All</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <img src="/images/cate-pic.png" alt="" class="w-[280px] md:w-[480px]">
+            </div>
+        </div>
+    </div>
+</div>

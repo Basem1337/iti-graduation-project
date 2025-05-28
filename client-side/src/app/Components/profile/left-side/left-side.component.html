@@ -1,0 +1,49 @@
+<div class="flex flex-col w-full h-screen bg-[#1C2027] max-w-full">
+  <div class="flex flex-col px-5 pt-5 pb-4 gap-3">
+    <p
+      class="text-white font-[ClashGrotesk-Semibold] m-0 text-4xl leading-none"
+    >
+      My Games
+    </p>
+    <!-- <div class="flex flex-col md:gap-4 md:flex-row md:items-center">
+      <div class="flex felx-row align-items-center">
+        <p
+          class="text-[#8E8E8E] font-[ClashGrotesk-Regular] m-0 text-xl leading-none whitespace-nowrap"
+        >
+          Sort by:
+        </p>
+        <select
+          class="block px-3 py-2 focus:border rounded-lg bg-[#1C2027] text-white focus:outline-none focus:bg-[#1C2027] focus:text-black focus:ring-2 focus:ring-white"
+        >
+          <option value="option1">Alphabetic A - Z</option>
+          <option value="option2">Alphabetic Z - A</option>
+          <option value="option3">Latest</option>
+        </select>
+      </div>
+      <div class="flex felx-row align-items-center">
+        <p
+          class="text-[#8E8E8E] font-[ClashGrotesk-Regular] m-0 text-xl leading-none"
+        >
+          Genre:
+        </p>
+        <select
+          class="block px-3 py-2 focus:border rounded-lg bg-[#1C2027] text-white focus:outline-none focus:bg-[#1C2027] focus:text-black focus:ring-2 focus:ring-white"
+        >
+          <option value="option1">Shooting</option>
+          <option value="option2">Sports</option>
+          <option value="option3">Cooking</option>
+        </select>
+      </div>
+    </div> -->
+  </div>
+  <div
+    class="flex flex-row flex-wrap px-5 pb-4 gap-4 overflow-auto scrollbar-transparent"
+  >
+    <app-game-card *ngFor="let game of games" [gameName]="game.gameName" [gamePoster]="game.gamePoster"></app-game-card>
+    <!-- <app-game-card></app-game-card>
+    <app-game-card></app-game-card>
+    <app-game-card></app-game-card>
+    <app-game-card></app-game-card>
+    <app-game-card></app-game-card> -->
+  </div>
+</div>

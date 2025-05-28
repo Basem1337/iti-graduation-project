@@ -1,0 +1,17 @@
+<div class="shadow flex bg-[#F0F0F0] justify-self-center w-[95%] h-[150px]">
+  <div class="w-auto  flex justify-self-center justify-start items-center p-2 ">
+    <div class="bg-gray-300 w-[100px] h-[132px]"><img class="h-full w-full" src="{{gamePoster}}" alt=""></div>
+  </div>
+  <div class="w-[70%]  p-1 ">
+    <div>
+      <p class="font-[ClashGrotesk-SemiBold] text-xl m-0">{{gameName}}</p>
+      <p class="font-[ClashGrotesk-Regular] m-0">{{gameCompany}}</p>
+    </div>
+    <div>
+      <p class="mt-2 font-[ClashGrotesk-Medium]">${{gamePrice}}</p>
+    </div>
+  </div>
+  <div (click)="deleteCartItem(productId)" class="w-[50px]  flex-col">
+    <img src="images/Delete2.svg" alt="" class="w-[20px] justify-self-center pt-2 cursor-pointer hover:scale-105" />
+  </div>
+</div>

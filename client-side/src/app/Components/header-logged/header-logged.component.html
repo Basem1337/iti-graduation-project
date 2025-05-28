@@ -1,0 +1,46 @@
+<div class="flex h-[80px] bg-[#1C232F] px-5 md:px-10">
+    <div class="flex justify-between items-center w-full">
+        <div [routerLink]="['/home']" class="cursor-pointer">
+            <img src="images/h-logo.svg" alt="Logo" width="120px">
+        </div>
+
+        <div class="hidden md:flex gap-5 font-[ClashGrotesk-Regular] text-white">
+            <a class="nav-links hover:text-[#3A66E8] transition" routerLink="/home" href="#">Home</a>
+            <a class="nav-links hover:text-[#3A66E8] transition" routerLink="/games" href="#">Games</a>
+            <a class="nav-links hover:text-[#3A66E8] transition" routerLink="/home" href="#" fragment="categories">Categories</a>
+            <a class="nav-links hover:text-[#3A66E8] transition" routerLink="/about" href="#">About</a>
+            <!-- <a class="nav-links hover:text-[#3A66E8] transition" routerLink="/cart" href="#">Cart</a> -->
+        </div>
+
+        <div class="hidden md:flex gap-3 font-[ClashGrotesk-Medium]">
+            <button routerLink="/cart" class="h-[50px] w-[50px] bg-[#1C232F]"><img src="images/cart-outline.svg" alt=""></button>
+            <button routerLink="/profile" class="flex gap-2 items-center h-[50px] w-[200px] bg-[#1C232F] border-2 border-[#2F52BD] rounded-lg px-2 transition hover:bg-[#2542A3]">
+                <img class="size-8" src="images/user-outline.svg" alt=""><a class="text-white" >{{userName}}</a>
+            </button>
+        </div>
+
+        <div class="md:hidden">
+            <button id="menu-toggle" class="text-white text-2xl">
+                ☰
+            </button>
+        </div>
+    </div>
+</div>
+
+<div id="mobile-menu" class="hidden flex-col bg-[#1C232F] p-5 text-white font-[ClashGrotesk-Regular]">
+    <a class="py-2 hover:text-[#3A66E8] transition" href="#">Home</a>
+    <a class="py-2 hover:text-[#3A66E8] transition" href="#">Games</a>
+    <a class="py-2 hover:text-[#3A66E8] transition" href="#">Categories</a>
+    <a class="py-2 hover:text-[#3A66E8] transition" href="#">About</a>
+    <div class="mt-4 flex flex-col gap-3">
+        <button routerLink="/profile" class="flex gap-2 h-[50px] w-[200px] bg-[#1C232F] border-2 border-[#2F52BD] rounded-lg px-2 transition hover:bg-[#2542A3]">
+            <img class="size-8" src="images/user-outline.svg" alt=""><a class="text-white" >{{userName}}</a>
+        </button>
+    </div>
+</div>
+
+<script>
+    document.getElementById("menu-toggle").addEventListener("click", function () {
+        document.getElementById("mobile-menu").classList.toggle("hidden");
+    });
+</script>

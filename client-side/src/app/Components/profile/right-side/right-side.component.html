@@ -1,0 +1,24 @@
+<div
+  class="flex flex-col gap-4 py-4 items-center bg-linear-to-b from-[#2F52BD] to-[#152657] h-full"
+>
+  <div class=" w-[85%] aspect-square"><img src="images/profile-pec.png" alt=""></div>
+  <div class="flex flex-col gap-2 items-center">
+    <p
+    class="text-white font-[ClashGrotesk-Semibold] m-0 text-2xl leading-none whitespace-nowrap"
+  >
+  {{userName}}  </p>
+  <p
+    class="text-[#ffffff69] font-[ClashGrotesk-regular] m-0 text-lg leading-none whitespace-nowrap"
+  >
+  {{email}} </p>
+  </div>
+  <div class="flex gap-3 py-5">
+    <img src="images/Settings.svg" alt="Settings" class="w-5" />
+    <p class="font-[ClashGrotesk-Medium] text-lg text-white m-0">Settings</p>
+  </div>
+  <div (click)="signOut()" class="cursor-pointer flex gap-3 py-4">
+    <img src="images/LogOut.svg" alt="" class="w-5" >
+    <p class="font-[ClashGrotesk-Medium] text-[#ffffff69] m-0">Sign out</p>
+  </div>
+  
+</div>

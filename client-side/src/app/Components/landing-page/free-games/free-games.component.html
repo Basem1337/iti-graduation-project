@@ -1,0 +1,28 @@
+<div class="flex flex-col w-full min-h-[640px] justify-center bg-[#1C2027] p-4">
+    <div class="bg-gradient-to-r from-[#3A66E8] to-[#213982] p-5">
+        <div class="flex justify-between items-center mb-4">
+            <div class="flex gap-3">
+                <img src="/images/free-games.svg" alt="" width="32px">
+                <h3 class="text-white font-[ClashGrotesk-Medium] m-0">Free Games</h3>
+            </div>
+            <a href="" class="text-[#3A66E8] font-[ClashGrotesk-Medium]">See More</a>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          
+          <div *ngFor="let game of games | slice:5:9" class="bg-white w-full h-[360px] relative shadow-lg overflow-hidden">
+              <a [routerLink]="['/games', game._id]" class="w-full text-decoration-none"> 
+                <div class="absolute bottom-0 w-full text-white transition-all duration-300 hover:bg-opacity-80 z-10">
+                    <div class="flex justify-between items-center h-[100px] w-full bg-[#1C2027] p-3 font-[ClashGrotesk-Medium] m-0">
+                        <div class="flex flex-col">
+                            <h5 class="m-0">{{game.gameName}}</h5>
+                            <p class="text-[#54575D] text-[16px] m-0">{{game.company}}</p>
+                        </div>
+                        <div class="text-[#3A66E8] font-[ClashGrotesk-Semibold]"><h1>Free</h1></div>
+                    </div>
+                </div>
+                <img class="absolute top-0 left-0 w-full h-full object-cover" src="{{game.gamePoster}}" alt="">
+              </a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,84 @@
+@if(popUpMsg){
+  @if(popUpMsg == "Unauthorized"){
+    <div class="font-[ClashGrotesk-Medium] flex items-center justify-center h-screen w-screen top-0 right-0 fixed z-10 bg-black/50">
+      <div class="flex flex-col items-center justify-center gap-6 h-[240px] w-[320px] p-4 text-center bg-[#1C2027] text-white">
+        <span class="text-red-400">Log in first, please..</span>
+        <!-- <button routerLink="/profile" class="h-[50px] w-[180px] bg-[#2F52BD] rounded-lg p-3 transition hover:bg-[#2542A3]">Go to Library</button> -->
+        <button (click)="popUpMsg=''" class="h-[50px] w-[180px] bg-[#2F52BD] rounded-lg p-3 transition hover:bg-[#2542A3]">Close</button>
+      </div>
+    </div>
+  }@else{
+    <div class="font-[ClashGrotesk-Medium] flex items-center justify-center h-screen w-screen top-0 right-0 fixed z-10 bg-black/50">
+      <div class="flex flex-col items-center justify-center gap-6 h-[240px] w-[320px] p-4 text-center bg-[#1C2027] text-white">
+        <span [class]="popUpType == 'success' ? 'text-green-400': 'text-red-400'">{{popUpMsg}}</span>
+        <!-- <button routerLink="/profile" class="h-[50px] w-[180px] bg-[#2F52BD] rounded-lg p-3 transition hover:bg-[#2542A3]">Go to Library</button> -->
+        <button (click)="popUpMsg=''" class="h-[50px] w-[180px] bg-[#2F52BD] rounded-lg p-3 transition hover:bg-[#2542A3]">Close</button>
+      </div>
+    </div>
+  }
+}
+
+<div class="bg-[#1C2027] min-h-screen w-full flex justify-center items-center">
+  <div class="container mx-auto px-4 py-6">
+    <!-- Loading spinner -->
+    <div *ngIf="isLoading" class="flex justify-center p-12">
+        <div class="spinner border-t-4 border-blue-500 border-solid rounded-full w-12 h-12 animate-spin"></div>
+      </div>
+  
+      <!-- Error message -->
+      <div *ngIf="error" class="bg-red-100 text-red-700 p-4 rounded text-center">
+        {{ error }}
+      </div>
+  
+      <!-- Game detail content -->
+      <div *ngIf="game && !isLoading" class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <!-- Game details section -->
+        <div class="text-gray-50">
+          <div class="flex items-center gap-3 mb-4">
+            <h1 class="text-4xl font-bold">{{ game.gameName }}</h1>
+            <div class="text-black px-3 py-1 text-sm font-semibold" style="background-color: #E8C63A">
+              {{ game.rating }}/5 
+              <i class="fa-regular fa-star mx-1" style="background-color: #E8C63A;"></i>
+            </div>
+          </div>
+  
+          <div class="mb-6">
+            <h2 class="text-xl font-semibold mb-2 text-blue-400">Description</h2>
+            <p class="text-base">{{ game.description }}</p>
+          </div>
+  
+          <div class="mb-6">
+            <h2 class="text-xl font-semibold mb-2 text-blue-400">Category</h2>
+            <div class="mb-4" style="color: #2E4074;">
+              <span>{{ game.category.name }}</span>
+            </div>
+          </div>
+          
+
+          <!-- Add to Cart and Trailer Button -->
+          <div class="flex flex-col md:flex-row gap-4">
+            <!-- Add to Cart Button -->
+            <button 
+              class="w-full md:w-64 h-12 text-white hover:bg-blue-700 transition" 
+              style="background-color: #3A66E8;"
+              (click)="addToCart(game._id)">
+              <i class="fa-solid fa-cart-shopping" style="background-color: #3A66E8;"></i> Add to Cart
+            </button>
+            
+            <!-- Watch Trailer Button -->
+            <a (click)="openTrailer()" target="_blank">
+              <button 
+                class="w-full md:w-64 h-12 border-2 border-blue-500 text-white hover:bg-blue-500 transition">
+                <i class="fa-solid fa-play"></i> Watch Trailer
+              </button>
+            </a>
+          </div>
+        </div>
+  
+        <!-- Game Image Section -->
+        <div class="flex justify-center items-center">
+          <img [src]="game.gamePoster" [alt]="game.gameName" class="h-auto rounded-lg shadow-lg" style="width: 70%; height: 80%;">
+        </div>
+      </div>
+    </div>
+  </div>

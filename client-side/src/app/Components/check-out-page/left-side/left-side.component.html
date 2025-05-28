@@ -1,0 +1,56 @@
+<div class="flex flex-col w-full h-screen bg-white max-w-full">
+  <div
+    class="flex flex-row justify-between align-self-center items-center w-[90%] h-[100px] border-b-[1px] border-[#000000]"
+  >
+    <p class="text-black font-[ClashGrotesk-Medium] m-0 text-4xl leading-none">
+      Check Out
+    </p>
+    <!-- <img src="images/Close_Checkout.svg" alt="" class="w-[30px]" /> -->
+  </div>
+  <div
+    class="flex flex-col gap-4 mt-5 w-[85%] h-[85%] align-self-center max-w-4xl"
+  >
+    <p class="font-[ClashGrotesk-Medium] text-2xl m-0 text-[#1C2027] md:text-2xl">
+      Card Details
+    </p>
+    <input
+      type="text"
+      placeholder="Card Number"
+      class="w-full md:w-[90%] lg:w-[60%] px-3 h-[55px] border-[2px] border-[#5267A2] placeholder-[#5267A2] placeholder:font-[ClashGrotesk-Medium]"
+    />
+    <input
+      type="text"
+      placeholder="Name On Card"
+      class="w-full md:w-[90%] lg:w-[60%] px-3 h-[55px] border-[2px] border-[#5267A2] placeholder-[#5267A2] placeholder:font-[ClashGrotesk-Medium]"
+    />
+    <div class="w-full md:w-[90%] lg:w-[60%] flex flex-col md:flex-row gap-4">
+      <input
+        type="text"
+        placeholder="CVV"
+        class=" w-full lg:w-1/2 px-3 h-[55px] border-[2px] border-[#5267A2] placeholder-[#5267A2] placeholder:font-[ClashGrotesk-Medium]"
+      />
+      <input
+        type="text"
+        placeholder="EXP Date"
+        class="w-full lg:w-1/2 px-3 h-[55px] border-[2px] border-[#5267A2] placeholder-[#5267A2] placeholder:font-[ClashGrotesk-Medium]"
+      />
+    </div>
+    <div class="flex gap-3  h-[50px] w-full">
+      <input
+        type="checkbox"
+        class="w-6 h-6 text-[#8D95AC] border-[#8D95AC]"
+      />
+      <p class="font-[ClashGrotesk-Medium] text-lg text-[#8D95AC] whitespace-nowrap w-full">
+        Save Payment Details
+      </p>
+    </div>
+    <input
+      type="button"
+      (click)="checkout()"
+      routerLink="/process"
+      value="Place Order"
+      class="bg-[#4261bfa5]  h-[55px] text-white text-lg hover:bg-[#2f4aaa] w-full md:w-[80%] lg:w-[40%]"
+      style="font-family: ClashGrotesk-Semibold; font-size: 20px"
+    />
+  </div>
+</div>

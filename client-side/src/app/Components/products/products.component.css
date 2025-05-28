@@ -1,0 +1,18 @@
+@layer utilities {
+  .scrollbar-transparent::-webkit-scrollbar {
+    width: 6px; 
+  }
+  
+  .scrollbar-transparent::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+
+  .scrollbar-transparent::-webkit-scrollbar-thumb {
+    background: #3A66E8; 
+    
+  }
+
+  .scrollbar-transparent::-webkit-scrollbar-thumb:hover {
+    background: #426ce9
+  }
+}
