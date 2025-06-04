@@ -1,0 +1,80 @@
+#########################################
+# 🔧 General
+#########################################
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.suo
+*.user
+*.DS_Store
+Thumbs.db
+
+#########################################
+# 🧠 Node / Angular (server-side)
+#########################################
+server-side/node_modules/
+server-side/dist/
+server-side/.angular/cache/
+server-side/.angular/
+
+# Angular environment
+server-side/src/environments/*.ts
+!server-side/src/environments/environment.ts
+
+#########################################
+# 🧱 ASP.NET Core (client-side)
+#########################################
+client-side/bin/
+client-side/obj/
+client-side/**/*.user
+client-side/**/*.suo
+client-side/*.dbmdl
+client-side/*.dbproj.schemaview
+client-side/*.pdb
+client-side/wwwroot/lib/
+
+# Entity Framework migrations backup (optional if large)
+client-side/Migrations/
+
+# ASP.NET secrets
+client-side/appsettings.*.json
+!client-side/appsettings.json
+
+#########################################
+# 💻 IDEs and Editors
+#########################################
+.vs/
+.vscode/
+.idea/
+
+# JetBrains Rider
+*.sln.iml
+
+# Visual Studio Code logs/history
+*.code-workspace
+.history/
+
+#########################################
+# 🔐 Security
+#########################################
+*.pem
+*.cer
+*.key
+*.pfx
+
+#########################################
+# 📦 Package Managers
+#########################################
+# Keep only one of the following based on your preference
+# yarn.lock
+# package-lock.json
+
+#########################################
+# 💾 OS-specific
+#########################################
+ehthumbs.db
+Icon?
+Thumbs.db
+.DS_Store

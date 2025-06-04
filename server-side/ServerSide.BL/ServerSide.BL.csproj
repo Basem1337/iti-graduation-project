@@ -20,4 +20,8 @@
 		<PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.1" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\ServerSide.DAL\ServerSide.DAL.csproj" />
+	</ItemGroup>
+
 </Project>
