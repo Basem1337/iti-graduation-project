@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Graduation Project\\iti-graduation-project\\server-side\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Migrations\\20250605115049_seeding_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServerSide.DAL\\Migrations\\20250605115049_seeding_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\graduation project\\iti-graduation-project\\server-side\\serverside.dal\\context\\gamadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|solutionrelative:serverside.dal\\context\\gamadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "20250605115049_seeding_data.cs",
+              "DocumentMoniker": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Migrations\\20250605115049_seeding_data.cs",
+              "RelativeDocumentMoniker": "ServerSide.DAL\\Migrations\\20250605115049_seeding_data.cs",
+              "ToolTip": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Migrations\\20250605115049_seeding_data.cs",
+              "RelativeToolTip": "ServerSide.DAL\\Migrations\\20250605115049_seeding_data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:50:50.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Photo.cs",
               "DocumentMoniker": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Photo.cs",
               "RelativeDocumentMoniker": "ServerSide.DAL\\Models\\Photo.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Category.cs",
               "RelativeDocumentMoniker": "ServerSide.DAL\\Models\\Category.cs",
@@ -64,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ServerSide.DAL\\Models\\Product.cs",
@@ -77,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductSeeders.cs",
               "DocumentMoniker": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Seeders\\ProductSeeders.cs",
               "RelativeDocumentMoniker": "ServerSide.DAL\\Seeders\\ProductSeeders.cs",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GAMADBContext.cs",
               "DocumentMoniker": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Context\\GAMADBContext.cs",
               "RelativeDocumentMoniker": "ServerSide.DAL\\Context\\GAMADBContext.cs",
