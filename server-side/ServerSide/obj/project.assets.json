@@ -5786,23 +5786,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dell\\.nuget\\packages\\": {},
+    "C:\\Users\\robin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI Material\\Graduation Project\\server-side\\ServerSide\\ServerSide.API.csproj",
+      "projectUniqueName": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide\\ServerSide.API.csproj",
       "projectName": "ServerSide.API",
-      "projectPath": "D:\\ITI Material\\Graduation Project\\server-side\\ServerSide\\ServerSide.API.csproj",
-      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "D:\\ITI Material\\Graduation Project\\server-side\\ServerSide\\obj\\",
+      "projectPath": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide\\ServerSide.API.csproj",
+      "packagesPath": "C:\\Users\\robin\\.nuget\\packages\\",
+      "outputPath": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\robin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5817,8 +5817,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\ITI Material\\Graduation Project\\server-side\\ServerSide.BL\\ServerSide.BL.csproj": {
-              "projectPath": "D:\\ITI Material\\Graduation Project\\server-side\\ServerSide.BL\\ServerSide.BL.csproj"
+            "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.BL\\ServerSide.BL.csproj": {
+              "projectPath": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.BL\\ServerSide.BL.csproj"
             }
           }
         }

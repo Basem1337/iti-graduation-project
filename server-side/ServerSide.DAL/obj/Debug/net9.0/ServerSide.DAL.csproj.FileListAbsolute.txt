@@ -26,3 +26,18 @@ D:\ITI Material\Graduation Project\server-side\ServerSide.DAL\obj\Debug\net9.0\r
 D:\ITI Material\Graduation Project\server-side\ServerSide.DAL\obj\Debug\net9.0\ServerSide.DAL.pdb
 D:\ITI Material\Graduation Project\server-side\ServerSide.DAL\obj\Debug\net9.0\ServerSide.DAL.genruntimeconfig.cache
 D:\ITI Material\Graduation Project\server-side\ServerSide.DAL\obj\Debug\net9.0\ref\ServerSide.DAL.dll
+D:\Graduation Project\iti-graduation-project\server-side\ServerSide.DAL\bin\Debug\net9.0\ServerSide.DAL.deps.json
+D:\Graduation Project\iti-graduation-project\server-side\ServerSide.DAL\bin\Debug\net9.0\ServerSide.DAL.runtimeconfig.json
+D:\Graduation Project\iti-graduation-project\server-side\ServerSide.DAL\bin\Debug\net9.0\ServerSide.DAL.dll
+D:\Graduation Project\iti-graduation-project\server-side\ServerSide.DAL\bin\Debug\net9.0\ServerSide.DAL.pdb
+D:\Graduation Project\iti-graduation-project\server-side\ServerSide.DAL\obj\Debug\net9.0\ServerSide.DAL.csproj.AssemblyReference.cache
+D:\Graduation Project\iti-graduation-project\server-side\ServerSide.DAL\obj\Debug\net9.0\ServerSide.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Graduation Project\iti-graduation-project\server-side\ServerSide.DAL\obj\Debug\net9.0\ServerSide.DAL.AssemblyInfoInputs.cache
+D:\Graduation Project\iti-graduation-project\server-side\ServerSide.DAL\obj\Debug\net9.0\ServerSide.DAL.AssemblyInfo.cs
+D:\Graduation Project\iti-graduation-project\server-side\ServerSide.DAL\obj\Debug\net9.0\ServerSide.DAL.csproj.CoreCompileInputs.cache
+D:\Graduation Project\iti-graduation-project\server-side\ServerSide.DAL\obj\Debug\net9.0\ServerSide.DAL.sourcelink.json
+D:\Graduation Project\iti-graduation-project\server-side\ServerSide.DAL\obj\Debug\net9.0\ServerSide.DAL.dll
+D:\Graduation Project\iti-graduation-project\server-side\ServerSide.DAL\obj\Debug\net9.0\refint\ServerSide.DAL.dll
+D:\Graduation Project\iti-graduation-project\server-side\ServerSide.DAL\obj\Debug\net9.0\ServerSide.DAL.pdb
+D:\Graduation Project\iti-graduation-project\server-side\ServerSide.DAL\obj\Debug\net9.0\ServerSide.DAL.genruntimeconfig.cache
+D:\Graduation Project\iti-graduation-project\server-side\ServerSide.DAL\obj\Debug\net9.0\ref\ServerSide.DAL.dll

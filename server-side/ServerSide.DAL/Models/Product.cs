@@ -17,6 +17,7 @@ namespace ServerSide.DAL.Models
         public string Company { get; set; } = string.Empty;
         public decimal Rate { get; set; }
         public DateTime ReleaseDate { get; set; }
+        public string TrailerUrl { get; set; } = string.Empty;
         public Guid CategoryId { get; set; }
         public Category Category { get; set; } = null!;
         public virtual ICollection<Photo> Photos { get; set; } = new List<Photo>();

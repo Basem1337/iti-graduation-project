@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ServerSide.DAL.Context;
 
@@ -11,9 +12,11 @@ using ServerSide.DAL.Context;
 namespace ServerSide.DAL.Migrations
 {
     [DbContext(typeof(GAMADBContext))]
-    partial class GAMADBContextModelSnapshot : ModelSnapshot
+    [Migration("20250605115049_seeding_data")]
+    partial class seeding_data
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

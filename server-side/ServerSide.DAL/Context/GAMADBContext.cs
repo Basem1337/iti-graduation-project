@@ -58,6 +58,12 @@ namespace ServerSide.DAL.Context
                 .HasForeignKey(w => w.ProductId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+            var (products, categories,photos) = ProductSeeder.SeedData();
+
+            modelBuilder.Entity<Category>().HasData(categories);
+            modelBuilder.Entity<Product>().HasData(products);    
+            modelBuilder.Entity<Photo>().HasData(photos);
+
         }
 
         public virtual DbSet<Product> Products { get; set; }
