@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using ServerSide.DAL.Models;
+using System.Reflection;
 
 namespace ServerSide.DAL.Context
 {
@@ -16,6 +17,7 @@ namespace ServerSide.DAL.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
             modelBuilder.Entity<Cart>().HasKey(c => new { c.UserId, c.ProductId });
             modelBuilder.Entity<Library>().HasKey(l => new { l.UserId, l.ProductId });

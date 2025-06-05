@@ -1,12 +1,13 @@
-﻿using System;
+﻿using ServerSide.DAL.Repositories.Generic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using ServerSide.DAL.Models;
 
-namespace ServerSide.DAL.Repositories.Category
+namespace ServerSide.DAL
 {
-    public interface ICategoryRepository
+    public interface ICategoryRepository : IGenericRepository<Category>
     {
     }
 }
