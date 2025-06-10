@@ -13,6 +13,6 @@ namespace ServerSide.DAL.Models
         public int UserID { get; set; }
         public User User { get; set; }
 
-        public ICollection<Product> Products { get; set; }
+        public ICollection<Product> Products { get; set; }= new List<Product>();
     }
 }

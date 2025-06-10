@@ -1,29 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Graduation Project\\iti-graduation-project\\server-side\\",
+  "WorkspaceRootPath": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\graduation project\\iti-graduation-project\\server-side\\serverside.dal\\repositories\\category\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\work_space\\iti-scholarship\\grad_project\\iti-graduation-project\\server-side\\serverside.dal\\models\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|solutionrelative:serverside.dal\\models\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\work_space\\iti-scholarship\\grad_project\\iti-graduation-project\\server-side\\serverside.dal\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|solutionrelative:serverside.dal\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\work_space\\iti-scholarship\\grad_project\\iti-graduation-project\\server-side\\serverside.dal\\models\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|solutionrelative:serverside.dal\\models\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\work_space\\iti-scholarship\\grad_project\\iti-graduation-project\\server-side\\serverside.dal\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|solutionrelative:serverside.dal\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\work_space\\iti-scholarship\\grad_project\\iti-graduation-project\\server-side\\serverside.dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|solutionrelative:serverside.dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\work_space\\iti-scholarship\\grad_project\\iti-graduation-project\\server-side\\serverside.dal\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|solutionrelative:serverside.dal\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\work_space\\iti-scholarship\\grad_project\\iti-graduation-project\\server-side\\serverside.dal\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|solutionrelative:serverside.dal\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\work_space\\iti-scholarship\\grad_project\\iti-graduation-project\\server-side\\serverside.dal\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|solutionrelative:serverside.dal\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\work_space\\iti-scholarship\\grad_project\\iti-graduation-project\\server-side\\serverside.dal\\repositories\\category\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|solutionrelative:serverside.dal\\repositories\\category\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\graduation project\\iti-graduation-project\\server-side\\serverside.dal\\repositories\\generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\work_space\\iti-scholarship\\grad_project\\iti-graduation-project\\server-side\\serverside.dal\\repositories\\generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|solutionrelative:serverside.dal\\repositories\\generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\graduation project\\iti-graduation-project\\server-side\\serverside.dal\\repositories\\category\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\work_space\\iti-scholarship\\grad_project\\iti-graduation-project\\server-side\\serverside.dal\\repositories\\category\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|solutionrelative:serverside.dal\\repositories\\category\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\graduation project\\iti-graduation-project\\server-side\\serverside.dal\\repositories\\generic\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\work_space\\iti-scholarship\\grad_project\\iti-graduation-project\\server-side\\serverside.dal\\repositories\\generic\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|solutionrelative:serverside.dal\\repositories\\generic\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\graduation project\\iti-graduation-project\\server-side\\serverside.dal\\entityconfiguration\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\work_space\\iti-scholarship\\grad_project\\iti-graduation-project\\server-side\\serverside.dal\\entityconfiguration\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|solutionrelative:serverside.dal\\entityconfiguration\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\graduation project\\iti-graduation-project\\server-side\\serverside.dal\\context\\gamadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|d:\\work_space\\iti-scholarship\\grad_project\\iti-graduation-project\\server-side\\serverside.dal\\context\\gamadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9910F212-9DC7-4263-A25C-E516573E9C12}|ServerSide.DAL\\ServerSide.DAL.csproj|solutionrelative:serverside.dal\\context\\gamadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,8 +66,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -43,10 +83,114 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Wishlist.cs",
+              "DocumentMoniker": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Wishlist.cs",
+              "RelativeDocumentMoniker": "ServerSide.DAL\\Models\\Wishlist.cs",
+              "ToolTip": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Wishlist.cs",
+              "RelativeToolTip": "ServerSide.DAL\\Models\\Wishlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T15:41:06.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Library.cs",
+              "DocumentMoniker": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Library.cs",
+              "RelativeDocumentMoniker": "ServerSide.DAL\\Models\\Library.cs",
+              "ToolTip": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Library.cs",
+              "RelativeToolTip": "ServerSide.DAL\\Models\\Library.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T15:40:05.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ServerSide.DAL\\Models\\Category.cs",
+              "ToolTip": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Category.cs",
+              "RelativeToolTip": "ServerSide.DAL\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T15:39:55.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Photo.cs",
+              "DocumentMoniker": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Photo.cs",
+              "RelativeDocumentMoniker": "ServerSide.DAL\\Models\\Photo.cs",
+              "ToolTip": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Photo.cs",
+              "RelativeToolTip": "ServerSide.DAL\\Models\\Photo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T15:39:05.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ServerSide.DAL\\Models\\User.cs",
+              "ToolTip": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\User.cs",
+              "RelativeToolTip": "ServerSide.DAL\\Models\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T15:38:13.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "ServerSide.DAL\\Models\\Feedback.cs",
+              "ToolTip": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Feedback.cs",
+              "RelativeToolTip": "ServerSide.DAL\\Models\\Feedback.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T15:37:22.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ServerSide.DAL\\Models\\Product.cs",
+              "ToolTip": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Product.cs",
+              "RelativeToolTip": "ServerSide.DAL\\Models\\Product.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA4wBoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T15:34:11.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "ServerSide.DAL\\Models\\Cart.cs",
+              "ToolTip": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Models\\Cart.cs",
+              "RelativeToolTip": "ServerSide.DAL\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T15:26:18.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Category\\CategoryRepository.cs",
+              "DocumentMoniker": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Category\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "ServerSide.DAL\\Repositories\\Category\\CategoryRepository.cs",
-              "ToolTip": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Category\\CategoryRepository.cs",
+              "ToolTip": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Category\\CategoryRepository.cs",
               "RelativeToolTip": "ServerSide.DAL\\Repositories\\Category\\CategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,68 +199,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Category\\ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Category\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "ServerSide.DAL\\Repositories\\Category\\ICategoryRepository.cs",
-              "ToolTip": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Category\\ICategoryRepository.cs",
+              "ToolTip": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Category\\ICategoryRepository.cs",
               "RelativeToolTip": "ServerSide.DAL\\Repositories\\Category\\ICategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T15:29:49.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T15:29:49.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Generic\\GenericRepository.cs",
+              "DocumentMoniker": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Generic\\GenericRepository.cs",
               "RelativeDocumentMoniker": "ServerSide.DAL\\Repositories\\Generic\\GenericRepository.cs",
-              "ToolTip": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Generic\\GenericRepository.cs",
+              "ToolTip": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Generic\\GenericRepository.cs",
               "RelativeToolTip": "ServerSide.DAL\\Repositories\\Generic\\GenericRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T15:29:33.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T15:29:33.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Generic\\IGenericRepository.cs",
+              "DocumentMoniker": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Generic\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "ServerSide.DAL\\Repositories\\Generic\\IGenericRepository.cs",
-              "ToolTip": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Generic\\IGenericRepository.cs",
+              "ToolTip": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Repositories\\Generic\\IGenericRepository.cs",
               "RelativeToolTip": "ServerSide.DAL\\Repositories\\Generic\\IGenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T15:29:30.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T15:29:30.12Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "GAMADBContext.cs",
-              "DocumentMoniker": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Context\\GAMADBContext.cs",
+              "DocumentMoniker": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Context\\GAMADBContext.cs",
               "RelativeDocumentMoniker": "ServerSide.DAL\\Context\\GAMADBContext.cs",
-              "ToolTip": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Context\\GAMADBContext.cs",
+              "ToolTip": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\Context\\GAMADBContext.cs",
               "RelativeToolTip": "ServerSide.DAL\\Context\\GAMADBContext.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAwBMAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T15:24:17.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T15:24:17.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "CategoryConfiguration.cs",
-              "DocumentMoniker": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\EntityConfiguration\\CategoryConfiguration.cs",
+              "DocumentMoniker": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\EntityConfiguration\\CategoryConfiguration.cs",
               "RelativeDocumentMoniker": "ServerSide.DAL\\EntityConfiguration\\CategoryConfiguration.cs",
-              "ToolTip": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\EntityConfiguration\\CategoryConfiguration.cs",
+              "ToolTip": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\EntityConfiguration\\CategoryConfiguration.cs",
               "RelativeToolTip": "ServerSide.DAL\\EntityConfiguration\\CategoryConfiguration.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T15:23:23.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T15:23:23.295Z"
             }
           ]
         }
