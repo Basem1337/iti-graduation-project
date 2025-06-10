@@ -8,9 +8,11 @@ namespace ServerSide.DAL.Models
 {
     public class Cart
     {
-        public Guid UserId { get; set; }
-        public User User { get; set; } = null!;
-        public Guid ProductId { get; set; }
-        public Product Product { get; set; } = null!;
+        public int CartID { get; set; }
+
+        public int UserID { get; set; }
+        public User User { get; set; }
+
+        public ICollection<Product> Products { get; set; }
     }
 }

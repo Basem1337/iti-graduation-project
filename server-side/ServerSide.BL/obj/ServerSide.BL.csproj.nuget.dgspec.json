@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.BL\\ServerSide.BL.csproj": {}
+    "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.BL\\ServerSide.BL.csproj": {}
   },
   "projects": {
-    "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.BL\\ServerSide.BL.csproj": {
+    "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.BL\\ServerSide.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.BL\\ServerSide.BL.csproj",
+        "projectUniqueName": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.BL\\ServerSide.BL.csproj",
         "projectName": "ServerSide.BL",
-        "projectPath": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.BL\\ServerSide.BL.csproj",
-        "packagesPath": "C:\\Users\\robin\\.nuget\\packages\\",
-        "outputPath": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.BL\\obj\\",
+        "projectPath": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.BL\\ServerSide.BL.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\robin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\ServerSide.DAL.csproj": {
-                "projectPath": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\ServerSide.DAL.csproj"
+              "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\ServerSide.DAL.csproj": {
+                "projectPath": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\ServerSide.DAL.csproj"
               }
             }
           }
@@ -95,20 +95,20 @@
         }
       }
     },
-    "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\ServerSide.DAL.csproj": {
+    "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\ServerSide.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\ServerSide.DAL.csproj",
+        "projectUniqueName": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\ServerSide.DAL.csproj",
         "projectName": "ServerSide.DAL",
-        "projectPath": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\ServerSide.DAL.csproj",
-        "packagesPath": "C:\\Users\\robin\\.nuget\\packages\\",
-        "outputPath": "D:\\Graduation Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\obj\\",
+        "projectPath": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\ServerSide.DAL.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "D:\\work_space\\ITI-Scholarship\\Grad_Project\\iti-graduation-project\\server-side\\ServerSide.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\robin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

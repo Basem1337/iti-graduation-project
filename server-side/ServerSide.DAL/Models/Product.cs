@@ -20,10 +20,14 @@ namespace ServerSide.DAL.Models
         public string TrailerUrl { get; set; } = string.Empty;
         public Guid CategoryId { get; set; }
         public Category Category { get; set; } = null!;
+        public Guid WishListID { get; set; }
+        public Wishlist WishList { get; set; } = null!;
+        public Guid CartID { get; set; }
+        public Cart Cart { get; set; } = null!;
+        public Guid LibraryID { get; set; }
+        public Library Library { get; set; } = null!;
         public virtual ICollection<Photo> Photos { get; set; } = new List<Photo>();
         public virtual ICollection<Feedback> Feedbacks { get; set; } = new List<Feedback>();
-        public virtual ICollection<Library> UserLibrary { get; set; } = new List<Library>();
-        public virtual ICollection<Wishlist> UserWishlist { get; set; } = new List<Wishlist>();
-        public virtual ICollection<Cart> CartItems { get; set; } = new List<Cart>();
+
     }
 }

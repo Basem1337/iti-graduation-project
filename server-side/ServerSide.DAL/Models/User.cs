@@ -12,9 +12,9 @@ namespace ServerSide.DAL.Models
         public bool Gender { get; set; }
         public DateTime DateOfBirth { get; set; }
         public virtual ICollection<Feedback> Feedbacks { get; set; } = new List<Feedback>();
-        public virtual ICollection<Library> UserLibrary { get; set; } = new List<Library>();
-        public virtual ICollection<Wishlist> UserWishlist { get; set; } = new List<Wishlist>();
-        public virtual ICollection<Cart> CartItems { get; set; } = new List<Cart>();
+        public Library Library { get; set; }
+        public Cart Cart { get; set; }
+        public Wishlist WishList { get; set; }
 
     }
 }
